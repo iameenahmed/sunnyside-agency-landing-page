@@ -10,9 +10,9 @@ import photographyMobile from "../assets/mobile/image-photography.jpg";
 
 const Services = () => {
   return (
-    <div>
-      <div className="flex flex-col-reverse text-VeryDarkDesaturatedBlue">
-        <div className="space-y-6 px-6 py-14 text-center">
+    <div className="lg:grid lg:grid-cols-2 lg:grid-rows-3">
+      <div className="flex flex-col-reverse text-VeryDarkDesaturatedBlue lg:col-span-2 lg:flex-row">
+        <div className="space-y-6 px-6 py-14 text-center lg:basis-1/2">
           <h2 className="font-Fraunces text-4xl font-black ">
             Transform your brand
           </h2>
@@ -25,14 +25,14 @@ const Services = () => {
             Learn more
           </button>
         </div>
-        <picture className="">
+        <picture className="w-full lg:basis-1/2">
           <source srcSet={transform} media="(min-width: 768px)" />
           <img src={transformMobile} alt="egg" />
         </picture>
       </div>
 
-      <div className="flex flex-col-reverse">
-        <div className="space-y-6 px-6 py-14 text-center">
+      <div className="flex flex-col-reverse lg:col-span-2 lg:flex-row-reverse">
+        <div className="space-y-6 px-6 py-14 text-center lg:basis-1/2">
           <h2 className="font-Fraunces text-4xl font-black ">
             Stand out to the right audience
           </h2>
@@ -45,7 +45,7 @@ const Services = () => {
             Learn more
           </button>
         </div>
-        <picture>
+        <picture className="w-full lg:basis-1/2">
           <source srcSet={standOut} media="(min-width: 768px)" />
           <img src={standOutMobile} alt="glass illustration" />
         </picture>

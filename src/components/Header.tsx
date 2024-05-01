@@ -7,7 +7,7 @@ const Header = () => {
   const links: string[] = ["About", "Services", "Projects"];
 
   return (
-    <header className="absolute bottom-0 top-0 z-20 w-full px-6 py-8">
+    <header className="absolute top-0 z-20 w-full px-6 py-8 md:flex md:items-center md:justify-between">
       <div className="flex justify-between">
         <div>
           <img src={logo} alt="logo" />
@@ -39,14 +39,17 @@ const Header = () => {
         )}
         {/* Desktop Navigation */}
         <div className="hidden md:inline-block">
-          <ul>
+          <ul className="flex items-center gap-16 text-xl text-white">
             {links.map((link, index) => (
-              <li key={index}>
+              <li key={index} className="group relative">
                 <a href={`#${link}`}>{link}</a>
+                <span className="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-white transition-all duration-300 group-hover:w-full" />
               </li>
             ))}
             <li>
-              <button>Contact</button>
+              <button className="rounded-full bg-white px-6 py-2.5 font-Fraunces font-bold uppercase text-VeryDarkDesaturatedBlue hover:opacity-70">
+                Contact
+              </button>
             </li>
           </ul>
         </div>

@@ -8,7 +8,7 @@ const Testimonials = () => {
       <h3 className="font-Fraunces text-xl font-bold uppercase tracking-widest text-DarkGrayishBlue">
         Client Testimonials
       </h3>
-      <div className="mt-12 grid gap-16">
+      <div className="mt-12 grid gap-y-16 md:mx-auto md:w-[25rem] lg:w-full lg:grid-cols-3 lg:gap-8">
         <div className="flex flex-col-reverse items-center gap-7">
           <blockquote>
             Sunnyside’s enthusiasm coupled with their keen interest in our

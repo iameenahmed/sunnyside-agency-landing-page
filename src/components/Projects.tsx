@@ -10,7 +10,7 @@ import sugarcubesMobile from "../assets/mobile/image-gallery-sugar-cubes.jpg";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-2 grid-rows-2">
+    <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1">
       <picture>
         <source srcSet={milkbottles} media="(min-width: 768px)" />
         <img src={milkbottlesMobile} alt="milk bottles" />
