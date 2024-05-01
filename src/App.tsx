@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="font-Barlow text-lg font-semibold">
       <Header />
       <main>
         <Hero />
