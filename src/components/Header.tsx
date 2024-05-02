@@ -7,10 +7,10 @@ const Header = () => {
   const links: string[] = ["About", "Services", "Projects"];
 
   return (
-    <header className="absolute top-0 z-20 w-full px-6 py-8 md:flex md:items-center md:justify-between">
+    <header className="absolute top-0 z-20 w-full px-6 py-9 md:flex md:items-center md:justify-between lg:pl-9 lg:pr-12">
       <div className="flex justify-between">
-        <div>
-          <img src={logo} alt="logo" />
+        <div className="w-[10.75rem]">
+          <img src={logo} alt="logo" className="w-full" />
         </div>
         <div className="md:hidden">
           <button aria-label="toggle menu" onClick={() => setIsOpen(!isOpen)}>
@@ -39,7 +39,7 @@ const Header = () => {
         )}
         {/* Desktop Navigation */}
         <div className="hidden md:inline-block">
-          <ul className="flex items-center gap-16 text-xl text-white">
+          <ul className="flex items-center gap-12 text-white">
             {links.map((link, index) => (
               <li key={index} className="group relative">
                 <a href={`#${link}`}>{link}</a>
@@ -47,7 +47,7 @@ const Header = () => {
               </li>
             ))}
             <li>
-              <button className="rounded-full bg-white px-6 py-2.5 font-Fraunces font-bold uppercase text-VeryDarkDesaturatedBlue hover:opacity-70">
+              <button className="rounded-full bg-white px-6 py-3 font-Fraunces font-bold uppercase text-VeryDarkDesaturatedBlue hover:opacity-70">
                 Contact
               </button>
             </li>
