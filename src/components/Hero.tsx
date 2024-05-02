@@ -3,7 +3,7 @@ import hero from "../assets/mobile/image-header.jpg";
 
 const Hero = () => {
   return (
-    <div className="relative left-0 top-0">
+    <div className="after:bg-arrow relative left-0 top-0 after:absolute after:inset-0 after:z-30 after:bg-[50%_67%] after:bg-no-repeat lg:after:bg-[50%_52%]">
       <div className="absolute bottom-1/2 left-0 right-0 text-center lg:bottom-2/3">
         <h1 className="font-Fraunces text-4xl font-black uppercase leading-snug tracking-[0.2em] text-white xl:text-[3.5rem]">
           We are creatives

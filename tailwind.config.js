@@ -20,6 +20,9 @@ export default {
         DarkGrayishBlue: "hsl(232, 10%, 55%)",
         GrayishBlue: "hsl(210, 4%, 67%)",
       },
+      backgroundImage: {
+        arrow: "url(/src/assets/icon-arrow-down.svg)",
+      },
     },
   },
   plugins: [],
