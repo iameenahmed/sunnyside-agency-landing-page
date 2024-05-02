@@ -56,11 +56,11 @@ const Services = () => {
       </div>
 
       <div className="relative flex flex-col-reverse">
-        <div className="absolute bottom-14 space-y-7 px-6 text-center xl:px-40">
+        <div className="absolute bottom-14 space-y-7 px-6 text-center text-DarkDesaturatedCyan xl:px-[10.5rem]">
           <h2 className="font-Fraunces text-[1.75rem] font-black">
             Graphic Design
           </h2>
-          <p className="text-DarkDesaturatedCyan">
+          <p>
             Great design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential clients’
             attention.
@@ -73,11 +73,11 @@ const Services = () => {
       </div>
 
       <div className="relative flex flex-col-reverse">
-        <div className="absolute bottom-14 space-y-7 px-6 text-center xl:px-40">
+        <div className="absolute bottom-14 space-y-7 px-6 text-center text-DarkBlue xl:px-[10.5rem]">
           <h2 className="font-Fraunces text-[1.75rem] font-black">
             Photography
           </h2>
-          <p className="text-DarkBlue">
+          <p>
             Increase your credibility by getting the most stunning, high-quality
             photos that improve your business image.
           </p>

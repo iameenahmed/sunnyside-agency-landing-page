@@ -13,7 +13,7 @@ export default {
         DarkDesaturatedCyan: "hsl(167, 40%, 24%)",
         DarkBlue: "hsl(198, 62%, 26%)",
         DarkModerateCyan: "hsl(168, 34%, 41%)",
-        LightCyan: "hsl(165, 37%, 73%)",
+        LightCyan: "hsl(173, 50%, 68%)",
 
         VeryDarkDesaturatedBlue: "hsl(212, 27%, 19%)",
         VeryDarkGrayishBlue: "hsl(213, 9%, 39%)",
