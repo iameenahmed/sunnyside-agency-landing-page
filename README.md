@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/sunnyside-agency-landing-page](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page)
+- Solution URL: [frontendmentor.io/solutions/sunnyside-agency-landing-page](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-using-reactjs-1Q5bJm1H2z)
 
 ## My process
 
