@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <div className="lg:grid lg:grid-cols-2 lg:grid-rows-3">
       <div className="flex flex-col-reverse text-VeryDarkDesaturatedBlue lg:col-span-2 lg:flex-row">
-        <div className="space-y-6 px-6 py-14 text-center lg:basis-1/2 lg:space-y-8 lg:pl-[10.125rem] lg:pr-[6rem] lg:pt-[9.7rem] lg:text-start">
+        <div className="space-y-6 px-6 py-14 text-center lg:basis-1/2 lg:space-y-8 lg:pl-10 lg:text-start xl:pl-[10.125rem] xl:pr-[6rem] xl:pt-[9.7rem]">
           <h2 className="font-Fraunces text-4xl font-black lg:pr-8 lg:text-[2.5rem] lg:leading-tight">
             Transform your brand
           </h2>
@@ -27,12 +27,12 @@ const Services = () => {
         </div>
         <picture className="w-full lg:basis-1/2">
           <source srcSet={transform} media="(min-width: 768px)" />
-          <img src={transformMobile} alt="egg" />
+          <img src={transformMobile} alt="egg" className="w-full" />
         </picture>
       </div>
 
       <div className="flex flex-col-reverse lg:col-span-2 lg:flex-row-reverse">
-        <div className="space-y-6 px-6 py-14 text-center lg:basis-1/2 lg:space-y-8 lg:pl-[7rem] lg:pr-[10.125rem] lg:pt-[9.7rem] lg:text-start">
+        <div className="space-y-6 px-6 py-14 text-center lg:basis-1/2 lg:space-y-8 lg:pl-10 lg:text-start xl:pl-[7rem] xl:pr-[10.125rem] xl:pt-[9.7rem]">
           <h2 className="font-Fraunces text-4xl font-black lg:text-[2.5rem] lg:leading-tight">
             Stand out to the right audience
           </h2>
@@ -47,12 +47,16 @@ const Services = () => {
         </div>
         <picture className="w-full lg:basis-1/2">
           <source srcSet={standOut} media="(min-width: 768px)" />
-          <img src={standOutMobile} alt="glass illustration" />
+          <img
+            src={standOutMobile}
+            alt="glass illustration"
+            className="w-full"
+          />
         </picture>
       </div>
 
       <div className="relative flex flex-col-reverse">
-        <div className="absolute bottom-14 space-y-7 px-6 text-center lg:px-40">
+        <div className="absolute bottom-14 space-y-7 px-6 text-center xl:px-40">
           <h2 className="font-Fraunces text-[1.75rem] font-black">
             Graphic Design
           </h2>
@@ -64,12 +68,12 @@ const Services = () => {
         </div>
         <picture>
           <source srcSet={graphicDesign} media="(min-width: 768px)" />
-          <img src={graphicDesignMobile} alt="cheery" />
+          <img src={graphicDesignMobile} alt="cheery" className="w-full" />
         </picture>
       </div>
 
       <div className="relative flex flex-col-reverse">
-        <div className="absolute bottom-14 space-y-7 px-6 text-center lg:px-40">
+        <div className="absolute bottom-14 space-y-7 px-6 text-center xl:px-40">
           <h2 className="font-Fraunces text-[1.75rem] font-black">
             Photography
           </h2>
@@ -80,7 +84,11 @@ const Services = () => {
         </div>
         <picture>
           <source srcSet={photography} media="(min-width: 768px)" />
-          <img src={photographyMobile} alt="a slice of orange" />
+          <img
+            src={photographyMobile}
+            alt="a slice of orange"
+            className="w-full"
+          />
         </picture>
       </div>
     </div>

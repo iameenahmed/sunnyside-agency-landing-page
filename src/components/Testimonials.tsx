@@ -4,7 +4,7 @@ import jennieImage from "../assets/image-jennie.jpg";
 
 const Testimonials = () => {
   return (
-    <div className="my-16 px-6 text-center text-VeryDarkGrayishBlue lg:mx-36 lg:my-40">
+    <div className="my-16 px-6 text-center text-VeryDarkGrayishBlue xl:mx-36 xl:my-40">
       <h3 className="font-Fraunces text-xl font-bold uppercase tracking-widest text-DarkGrayishBlue lg:tracking-[0.25em]">
         Client Testimonials
       </h3>

@@ -10,8 +10,8 @@ const Hero = () => {
         </h1>
       </div>
       <picture>
-        <source srcSet={heroDesktop} media="(min-width: 768px)" />
-        <img src={hero} alt="a slice of orange" />
+        <source srcSet={heroDesktop} media="(min-width: 900px)" />
+        <img src={hero} alt="a slice of orange" className="w-full" />
       </picture>
     </div>
   );
